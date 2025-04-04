@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denzel the Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header styling */
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #141414;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: red;
+            margin: 0;
+        }
+
+        /* Navigation styling */
+        nav {
+            background-color: #141414;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: red;
+        }
+
+        /* Main container styling */
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Section styling */
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: red;
+            margin-bottom: 10px;
+        }
+
+        section p, section ul, section ol {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #141414;
+            color: red;
+        }
+
+        table td {
+            background-color: #1c1c1c;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #141414;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Denzel the Developer</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#professional">Professional</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#hire-me">Hire Me</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to my portfolio! I am a passionate software engineer with a strong foundation in web development and cybersecurity. My goal is to leverage technology to create impactful solutions that address real-world challenges.</p>
+        </section>
+        <section id="professional">
+            <h2>Professional Experience</h2>
+            <p>With three years of experience in development and community outreach, I have successfully led initiatives that advocate for underserved communities. My background in social sciences complements my technical skills, allowing me to approach challenges from a holistic perspective.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Java</li>
+                <li>Cybersecurity Fundamentals</li>
+                <li>Database Management</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Portfolio Website</li>
+                <li>Community Outreach App</li>
+                <li>Cybersecurity Awareness Campaign</li>
+            </ul>
+        </section>
+        <section id="hire-me">
+            <h2>Hire Me</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Denzel Odhiambo</td>
+                    <td>1234 Nairobi</td>
+                    <td>0705815344</td>
+                    <td>denzelodhiambo10@gmail.com</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Denzel Odhiambo. All rights reserved.
+    </footer>
+</body>
+</html>
